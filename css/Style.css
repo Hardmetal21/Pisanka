@@ -246,10 +246,11 @@ ul.sub-menu{
     width:100%;
 }
 .popup_img{
+    margin-top: 20px;
     margin-bottom: 75px;
     position: relative;
     z-index:2;
-    max-height:85%;
+    max-height:-webkit-fill-available;
     max-width:70%;
     border-radius: 40px;
 }

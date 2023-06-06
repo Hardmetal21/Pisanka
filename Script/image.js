@@ -5,7 +5,7 @@ $(document).ready(function() {// запуск сайту
         var wid = img.width()
         var hei = img.height()
         if(wid <= 200 && hei > wid){ wid*=2.5}
-        else if(wid > hei || wid + hei <= 600){wid*=2}
+        else if(wid > hei || wid + hei <= 650){wid*=2}
         var src = img.attr('src'); // атрибут шляху до картини
         $("body").append("<div class='popup'> "+ //основа для картинки
             "<div class='popup_bg'></div>"+ // Затемнення

@@ -294,14 +294,12 @@ transition: 1s;
     height:100%;
     width:100%;
 }
-.popup_img{
-    margin-top: 20px;
-    margin-bottom: 75px;
-    position: relative;
-    z-index:2;
-    max-height:-webkit-fill-available;
-    max-width:70%;
+.popup_img {
+    max-width: 90vw; 
+    max-height: 90vh;
     border-radius: 40px;
+    object-fit: contain; 
+    z-index: 2;
 }
 footer{
     margin:20px -8px -8px -8px;min-height: 70px;width: auto;background-color: #ef8354

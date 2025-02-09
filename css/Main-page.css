@@ -11,3 +11,10 @@
 .btn-blur{
     box-shadow: 0px 0px 25px -5px #525252;
 }
+
+.Button-open{
+    transition: ease-in-out 0.5s;
+}
+.Button-open:hover{
+background-color: rgba(255, 228, 196, 0.375);
+}
